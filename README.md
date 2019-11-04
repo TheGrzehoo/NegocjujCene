@@ -1,0 +1,2 @@
+# negotiation
+Repozytorium kodu aplikacji
