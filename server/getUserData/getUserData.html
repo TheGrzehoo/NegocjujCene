@@ -1,0 +1,29 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Get User Data</title>
+  <script src="/getUserData/getUserData.js"></script>
+</head>
+
+<body>
+  <form id="negotiation_form" action="/api/placeOffer">
+    <div class="form_container">
+      <label for="negotiation_email">Email</label>
+      <input type="text" name="email" onchange="emailHandler(event)" id="negotiation_email">
+    </div>
+    <div class="form_container">
+      <label for="negotiation_price">Proponowana cena</label>
+      <input type="text" name="bet_price" onchange="priceHandler(event)" id="negotiation_bet_price">
+    </div>
+    <div class="form_container">
+      <input type="checkbox" name="notification" id="negotiation_notification">
+      <label for="negotiation_notification">Powiadom mnie o zaktualizowanej ofercie</label>
+    </div>
+    <button type="button" name="submit" id="negotiation_submit" onclick="submitHandler(event)">Wyślij negocjację</button>
+  </form>
+</body>
+
+</html>
