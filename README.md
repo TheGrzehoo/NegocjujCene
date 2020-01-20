@@ -8,4 +8,4 @@ MSSQL
 Node.js + Express
 
 ## Frontend
-React.js
+React.js + Redux
