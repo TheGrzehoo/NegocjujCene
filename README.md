@@ -1,8 +1,11 @@
-# negotiation
-Repozytorium kodu aplikacji
+# NegocjujCene
+Aplikacja do negocjacji cen w sklepach. Zarządzanie złożonymi ofertami, wymiana informacji między sklepem a kupującym za pośrednictwem serwisu.
 
-## Serwer
-Serwer stoi na Node.js
+## Database
+MSSQL
 
-## Panel
-Panel stoi na React.js
+## Backend
+Node.js + Express
+
+## Frontend
+React.js
